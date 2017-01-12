@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -26,7 +27,7 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             
             self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-            UIViewController *viewController = [[UIViewController alloc]init];
+            ViewController *viewController = [[ViewController alloc]init];
             UINavigationController *navigation = [[UINavigationController alloc]initWithRootViewController:viewController];
             self.window.rootViewController = navigation;
             [self.window makeKeyAndVisible];

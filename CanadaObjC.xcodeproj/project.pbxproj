@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1C86C61E27B345007C8861 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1C86C51E27B345007C8861 /* Downloader.m */; };
+		CE1C86CC1E27DF90007C8861 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1C86CB1E27DF90007C8861 /* TableViewCell.m */; };
 		CE9576711E26702A0041F435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9576701E26702A0041F435 /* main.m */; };
 		CE9576741E26702A0041F435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9576731E26702A0041F435 /* AppDelegate.m */; };
 		CE9576771E26702A0041F435 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9576761E26702A0041F435 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1C86C41E27B345007C8861 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		CE1C86C51E27B345007C8861 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		CE1C86CA1E27DF90007C8861 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		CE1C86CB1E27DF90007C8861 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		CE95766C1E26702A0041F435 /* CanadaObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanadaObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9576701E26702A0041F435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE9576721E26702A0041F435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +69,8 @@
 				CE9576731E26702A0041F435 /* AppDelegate.m */,
 				CE9576751E26702A0041F435 /* ViewController.h */,
 				CE9576761E26702A0041F435 /* ViewController.m */,
+				CE1C86CA1E27DF90007C8861 /* TableViewCell.h */,
+				CE1C86CB1E27DF90007C8861 /* TableViewCell.m */,
 				CE9576861E2673CF0041F435 /* Model */,
 				CE95767B1E26702B0041F435 /* Assets.xcassets */,
 				CE95767D1E26702B0041F435 /* LaunchScreen.storyboard */,
@@ -85,6 +93,8 @@
 			children = (
 				CE9576871E2673F50041F435 /* AppImage.h */,
 				CE9576881E2673F50041F435 /* AppImage.m */,
+				CE1C86C41E27B345007C8861 /* Downloader.h */,
+				CE1C86C51E27B345007C8861 /* Downloader.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -161,7 +171,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9576771E26702A0041F435 /* ViewController.m in Sources */,
+				CE1C86CC1E27DF90007C8861 /* TableViewCell.m in Sources */,
 				CE9576891E2673F50041F435 /* AppImage.m in Sources */,
+				CE1C86C61E27B345007C8861 /* Downloader.m in Sources */,
 				CE9576741E26702A0041F435 /* AppDelegate.m in Sources */,
 				CE9576711E26702A0041F435 /* main.m in Sources */,
 			);
@@ -312,6 +324,7 @@
 				CE9576851E26702B0041F435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
